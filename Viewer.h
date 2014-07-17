@@ -1,7 +1,7 @@
 #ifndef VIEWER_H
 #define VIEWER_H
 
-#include <QWidget>
+#include <QGLWidget>
 #include <QMouseEvent>
 #include <QWheelEvent>
 #include <QPainter>
@@ -11,7 +11,7 @@ namespace Ui {
 class Viewer;
 }
 
-class Viewer : public QWidget
+class Viewer : public QGLWidget
 {
     Q_OBJECT
 
